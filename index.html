@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minimalist To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="theme-toggle" title="Toggle Theme">🌓</button>
+  <div class="app-container">
+    <h1 class="app-title">To-Do List</h1>
+    <div class="input-group">
+      <input type="text" id="todo-input" placeholder="What do you need to do?" />
+      <input type="date" id="todo-deadline" />
+      <button onclick="addTodo()">Add</button>
+    </div>
+    <div class="filter-group">
+      <select id="filter-select" onchange="renderTodos()">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="uncompleted">Uncompleted</option>
+      </select>
+    </div>
+    <ul id="todo-list" class="todo-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
