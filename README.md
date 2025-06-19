@@ -26,23 +26,5 @@ A web-based interactive tool to visualize how various sorting algorithms work. T
 - **JavaScript (ES6 Modules)** – Core logic and animation
 - **DOM Manipulation** – Real-time updates and rendering
 
-3. 📂 Project Structure
-   
-Sorting_Algorithms_Visualization/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── Sorting_Algo/
-    ├── bubble.js
-    ├── selection.js
-    ├── insertion.js
-    ├── quick.js
-    ├── merge.js
-    ├── heap.js
-    ├── shell.js
-    ├── radix.js
-    └── counting.js
-
 
 
