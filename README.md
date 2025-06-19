@@ -27,6 +27,7 @@ A web-based interactive tool to visualize how various sorting algorithms work. T
 - **DOM Manipulation** – Real-time updates and rendering
 
 3. 📂 Project Structure
+   
 Sorting_Algorithms_Visualization/
 ├── index.html
 ├── style.css
