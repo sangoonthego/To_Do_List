@@ -103,4 +103,4 @@ If you encounter any issues or have suggestions, please open an issue in the rep
 
 ---
 
-**Built with ❤️ using vanilla web technologies** 
+**Built with ❤️ using vanilla web technologies**
